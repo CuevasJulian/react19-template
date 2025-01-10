@@ -48,7 +48,6 @@
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "@eslint/js": "^9.16.0",
-    "@inrupt/jest-jsdom-polyfills": "^3.2.4",
     "@jest/globals": "^29.7.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
