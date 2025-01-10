@@ -1,0 +1,21 @@
+{
+  "preset": "ts-jest",
+  "bail": 1,
+  "verbose": true,
+  "transformIgnorePatterns": ["/node_modules/"],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "setupFilesAfterEnv": ["<rootDir>/jest-setup.ts"],
+  "moduleNameMapper": {
+    "^@components(.*)$": "<rootDir>/src/components$1",
+    "^@layouts(.*)$": "<rootDir>/src/layouts$1",
+    "^@assets(.*)$": "<rootDir>/src/assets$1",
+    "^@pages(.*)$": "<rootDir>/src/pages$1",
+    "^@routes(.*)$": "<rootDir>/src/routes$1",
+    "^@styles(.*)$": "<rootDir>/src/styles$1",
+    "^@repo(.*)$": "<rootDir>/src/repo$1",
+    "^@graphql(.*)$": "<rootDir>/src/graphql$1",
+    "^@utils(.*)$": "<rootDir>/src/utils$1"
+  }
+}
