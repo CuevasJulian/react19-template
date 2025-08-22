@@ -11,3 +11,7 @@ or can execute both with `npm run deploy:local`
 if you use amplify ( aws ) you can give `npm run deploy:prod` as command to execute
 
 this command will create a `build` folder which has project inside with css 
+
+
+## Is working yet?
+you can take a look here: https://main.d3ml5lgv43ett.amplifyapp.com/
